@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';

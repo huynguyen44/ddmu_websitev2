@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget, KhanhGrid } from '../components';
 import { getPosts } from '../services';
