@@ -56,19 +56,30 @@ const Footer = () => {
       </div>
       <div className="">
         <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+          Products
+        </h6>
+        <p className="mb-4">
+          <a href="https://veym.net/" target="_blank" className="text-gray-600">VEYM</a>
+        </p>
+        <p className="mb-4">
+          <a href="https://www.liendoanbienduc.org/" target="_blank" className="text-gray-600">Liên Đoàn Biển Đức</a>
+        </p>
+      </div>
+      <div className="">
+        <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           Useful links
         </h6>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Pricing</a>
+          <a href="/AboutUs" className="text-gray-600">About Us</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Settings</a>
+          <a href="/divisions/Home" className="text-gray-600">Divisions</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Orders</a>
+          <a href="/blog" className="text-gray-600">Blog</a>
         </p>
         <p>
-          <a href="#!" className="text-gray-600">Help</a>
+          <a href="/Contact" className="text-gray-600">Contact Us</a>
         </p>
       </div>
       <div className="">
