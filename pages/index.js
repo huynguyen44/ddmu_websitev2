@@ -11,7 +11,7 @@ export default function Home({ posts }) {
           </span>
       </div>
       <video autoPlay loop muted className='mb-8'>
-        <source src='assets/Overhead Shot.mp4' type='video/mp4'/>
+        <source src='assets/DJI-0100-1.mp4' type='video/mp4'/>
       </video>
       <FeaturedPosts/>
       <KhanhCarousel/>
