@@ -10,7 +10,7 @@ export default function Home({ posts }) {
             Welcome to the Home of Đoàn Đaminh Úy!!
           </span>
       </div>
-      <video autoPlay loop muted className='mb-8'>
+      <video autoPlay loop muted playsInline className='mb-8'>
         <source src='assets/DJI-0100-1.mp4' type='video/mp4'/>
       </video>
       <FeaturedPosts/>
