@@ -2,15 +2,12 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 
-const SERVICEID = process.env.EMAILJS_SERVICE_ID;
-const TEMPLATEID = process.env.EMAILJS_TEMPLATE_ID;
-const USERID = process.env.EMAILJS_USER_ID;
 const Contact = () => {
 
   function sendEmail(e) {
     e.preventDefault();
 
-  emailjs.sendForm(SERVICEID, TEMPLATEID, e.target, USERID)
+  emailjs.sendForm('service_sfmsk94', 'template_xreh1zw', e.target, '7VWtzXaaChK43rHYV')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
