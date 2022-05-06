@@ -1,10 +1,10 @@
-/* eslint-disable */
 import React from 'react'
+import Image from 'next/image'
 
-const NghiaSi = () => {
+const HuynhTruong = () => {
   return (
     <div className="container mx-auto px-10 mb-8">
-      <img src="/assets/NghiaSiTeam.JPG" layout='responsive' width={2400} height={1600}/>
+      <img src='/assets/HuynhTruongTeam.jpg' className='mb-8'/>
       <div className='mt-8 grid sm:grid-cols-1 grid-flow-row-dense lg:grid-cols-3'>
         <div className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mx-8">
             <img className="object-cover w-full rounded-t-lg sm:h-24 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/Tina.JPG" alt=""/>
@@ -32,4 +32,4 @@ const NghiaSi = () => {
   )
 }
 
-export default NghiaSi
+export default HuynhTruong

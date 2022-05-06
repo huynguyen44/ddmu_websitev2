@@ -1,26 +1,33 @@
 /* eslint-disable */
 import React from 'react'
-import Image from 'next/image'
 
 const ThieuNhi = () => {
   return (
     <div className="container mx-auto px-10 mb-8">
-      <Image src="/assets/ThieuNhiTeam.JPG" layout='responsive' width={2400} height={1600}/>
-        <div class="flex justify-center">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                <Image class="rounded-t-lg" src="/assets/KhanhWings.jpg" width={1920} height={1080} alt=""/>
-                </a>
-                <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make up the bulk of the card's
-                    content.
-                </p>
-                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
-                </div>
+      <img src="/assets/ThieuNhiTeam.JPG" layout='responsive' width={2400} height={1600}/>
+      <div className='mt-8 grid sm:grid-cols-1 grid-flow-row-dense lg:grid-cols-3'>
+        <div className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mx-8">
+            <img className="object-cover w-full rounded-t-lg sm:h-24 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/Tina.JPG" alt=""/>
+            <div className="flex flex-col justify-between p-4 leading-normal">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Division Leader</h5>
+                <p className="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400">Tina Nguyen</p>
             </div>
         </div>
+        <div className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mx-8">
+            <img className="object-cover w-full h-96 rounded-t-lg sm:h-24 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/Vivian.JPG" alt=""/>
+            <div className="flex flex-col justify-between p-4 leading-normal">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Assistant Leader</h5>
+                <p className="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400">Vivian Vu</p>
+            </div>
+        </div>
+        <div className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mx-8">
+            <img className="object-cover w-full h-96 rounded-t-lg sm:h-24 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/BroJordan.JPG" alt=""/>
+            <div className="flex flex-col justify-between p-4 leading-normal">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Assistant Leader</h5>
+                <p className="mb-3 font-normal text-xl text-gray-700 dark:text-gray-400">Bro. Jordan Milligan</p>
+            </div>
+        </div>
+      </div>
     </div>
   )
 }

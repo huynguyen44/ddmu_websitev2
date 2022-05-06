@@ -42,14 +42,14 @@ const KhanhCarousel = () => {
   );
 
   return (
-    <div className="my-10">
-      <Carousel infinite customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} responsive={responsive} itemClass="px-4">
+    <div className="mb-8">
+      <Carousel infinite customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} responsive={responsive} itemClass="px-5">
         <Link href='/divisions/AuNhi'>
-            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-auto">
                 <img className="rounded-t-lg" src="/assets/AuNhi.jpg" alt="" />
                 <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Ấu Nhi: Seedlings</h5>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">The verdant color of a young wheatling, to symbolize their innocence and youthfulness.</p>
+                    <h5 className="mb-2 mx-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Ấu Nhi: Seedlings</h5>
+                    <p className="mb-3 mx-5 font-normal text-gray-700 dark:text-gray-400 text-center">The verdant color of a young wheatling, to symbolize their innocence and youthfulness.</p>
                 </div>
             </div>
         </Link>
@@ -57,8 +57,8 @@ const KhanhCarousel = () => {
         <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg" src="/assets/ThieuNhi.jpg" alt="" />
             <div className="p-5">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Thiếu Nhi: Searching</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Fr. Uong Quang Luong</p>
+                <h5 className="mb-2 mx-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Thiếu Nhi: Searching</h5>
+                <p className="mb-3 mx-5 font-normal text-gray-700 dark:text-gray-400 text-center">To symbolize their uniqueness and identity with great hope of life.</p>
             </div>
         </div>
         </Link>
@@ -66,8 +66,8 @@ const KhanhCarousel = () => {
         <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg" src="/assets/NghiaSi.jpg" alt="" />
             <div className="p-5">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Nghĩa Sĩ: Companions</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Fr. Johnson Le</p>
+                <h5 className="mb-2 mx-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Nghĩa Sĩ: Companions</h5>
+                <p className="mb-3 mx-5 font-normal text-gray-700 dark:text-gray-400 text-center">Symbolizing the sunrise of the youths before coming into their adult ages and the manifestation of the heart; the opening of one's life to others.</p>
             </div>
         </div>
         </Link>
@@ -75,26 +75,26 @@ const KhanhCarousel = () => {
         <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg" src="/assets/HiepSi.jpg" alt="" />
             <div className="p-5">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Hiệp Sĩ: Knights of the Eucharist</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Br. Jordan Milligan</p>
+                <h5 className="mb-2 mx-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Hiệp Sĩ: Knights of the Eucharist</h5>
+                <p className="mb-3 mx-5 font-normal text-gray-700 dark:text-gray-400 text-center">Symbolizing the hard work and dedication to serve God. The knights are invited to participate in the mission of becoming the salt and light for the world.</p>
             </div>
         </div>
         </Link>
-        <Link href='/divisions/AuNhi'>
+        <Link href='/divisions/HuynhTruong'>
         <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg" src="/assets/HuynhTruong.jpg" alt="" />
             <div className="p-5">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Huynh Trưởng: Youth Leader</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Anne Duong</p>
+                <h5 className="mb-2 mx-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Huynh Trưởng: Youth Leader</h5>
+                <p className="mb-3 mx-5 font-normal text-gray-700 dark:text-gray-400 text-center">Symbolizing the love, service, sacrifice, and responsibility.</p>
             </div>
         </div>
         </Link>
-        <Link href='/divisions/AuNhi'>
+        <Link href='/divisions/TroTa'>
         <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg" src="/assets/TroTa.jpg" alt="" />
             <div className="p-5">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Trợ Tá: Parental Leaders</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Huy Quang Nguyen</p>
+                <h5 className="mb-2 mx-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Trợ Tá: Parental Leaders</h5>
+                <p className="mb-3 mx-5 font-normal text-gray-700 dark:text-gray-400 text-center"></p>
             </div>
         </div>
         </Link>
